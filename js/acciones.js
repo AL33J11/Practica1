@@ -32,7 +32,7 @@ var boton=(($(this).attr('class')).split(' '))[1];
 	$('#derecha').swiperight(function(){
 	navigator.notification.alert("Deliz&oacute; a la derecha",function() {},"practica1","aceptar");
 	});
-	$('izquierda').swipeleft(funtion){
+	$('#izquierda').swipeleft(funtion){
 		navigator.notificationcomfirm('¿Que desea hacer...?') funtion(opcion){
 			switch (opcion)
 			case 1:
