@@ -4,7 +4,7 @@ $(document).ready(function(e) {
 
 document.addEventListener("diviceready", function(){
 	$('.btn').click(function(){
-var boton=(($(this).attr('class')).split (' '))[1];
+var boton=(($(this).attr('class')).split(' '))[1];
 	switch (boton)
 	{
 		case 'b1':
