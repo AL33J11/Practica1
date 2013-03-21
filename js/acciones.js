@@ -33,7 +33,7 @@ var boton=(($(this).attr('class')).split(' '))[1];
 	navigator.notification.alert("Deliz&oacute; a la derecha",function() {},"practica1","aceptar");
 	});
 	$('#izquierda').swipeleft(funtion){
-		navigator.notificationcomfirm('¿Que desea hacer...?') funtion(opcion){
+		navigator.notification.confirm('¿Que desea hacer...?') funtion(opcion){
 			switch (opcion)
 			case 1:
 				navigator.notification.beep(1);
