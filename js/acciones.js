@@ -32,5 +32,20 @@ var boton=(($(this).attr('class')).split (' '))[1];
 	$('#derecha').swiperight(function(){
 	navigator.notification.alert("Deliz&oacute; a la derecha",function() {},"practica1","aceptar");
 	});
+	$('izquierda').swipeleft(funtion){
+		navigator.notificationcomfirm('¿Que desea hacer...?') funtion(opcion){
+			switch (opcion)
+			case 1:
+				navigator.notification.beep(1);
+				break;
+				case 2:
+					navigator.notification.vibrate(500);
+					break;
+				
+		}
+	},"Practica1","beep,vibrate,cancelar");
+});
+		}
+	}
 },false);
 });
